@@ -14,10 +14,10 @@ with inputs start & end date(time-range) & allow them to export the listed data 
 3. [post] http://localhost:3000/api/task/                     --- to create task
 4. [put]http://localhost:3000/api/task/makecompleted/:task-id ---to marke task completed.
 5. [put]http://localhost:3000/api/task/makedeleted/:task-id   ---to marke task deleted, however task has not removed from the database.
-6. [delete]http://localhost:3000/api/task/remove/:task-id     --- to remove the task completed from the database.
+6. [delete]http://localhost:3000/api/task/remove/:task-id     --- to remove the task completely from the database.
 7. [get]http://localhost:3000/api/task/all/                   ---  get the list of All the tasks of particular user
 8. [post] http://localhost:3000/api/task/history              --- get the list of All task has marked completed and can set filter with startdate and end date.
-9. [get]http://localhost:3000/api/task/download               --- download the csv file of all the list task
+9. [get]http://localhost:3000/api/task/download               --- download the csv file of all the list of task
 
 
 

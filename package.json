@@ -1,0 +1,23 @@
+{
+  "name": "ngnote",
+  "version": "1.0.0",
+  "description": "Users can add tasks that they have to complete during the day and once the task is complete, they can mark them as complete and store other key details such as the date of completion. They can only delete a task if the task is not yet completed and mark them as deleted. List all the tasks for that day in chronological order and additionally give them an option to go through their past tasks(history) with inputs start & end date(time-range) & allow them to export the listed data to CSV/excel. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajay singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "csv": "^5.3.2",
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.11.14",
+    "winston": "^3.3.3"
+  }
+}

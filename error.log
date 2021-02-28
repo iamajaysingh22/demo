@@ -1,0 +1,90 @@
+{
+  message: 'ffdf',
+  level: 'error',
+  label: 'ngocean',
+  timestamp: '2021-02-01T19:02:40.225Z'
+}
+{
+  message: 'ffdf',
+  level: 'error',
+  label: 'ngocean',
+  timestamp: '2021-02-01T19:03:25.436Z'
+}
+{
+  message: 'ffdf',
+  level: 'error',
+  label: 'ngocean',
+  timestamp: '2021-02-01T19:05:00.572Z'
+}
+{
+  message: 'ffdf',
+  level: 'error',
+  label: 'ngocean',
+  timestamp: '2021-02-01T19:05:05.031Z'
+}
+{
+  message: 'ffdf',
+  level: 'error',
+  label: 'ngocean',
+  timestamp: '2021-02-01T19:05:28.599Z'
+}
+{
+  message: 'could not connect with mongodb connection timed out',
+  reason: TopologyDescription {
+    type: 'Unknown',
+    setName: null,
+    maxSetVersion: null,
+    maxElectionId: null,
+    servers: Map {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        error: MongoNetworkTimeoutError: connection timed out
+            at connectionFailureError (e:\nodejs\ngocean\node_modules\mongodb\lib\core\connection\connect.js:342:14)
+            at Socket.<anonymous> (e:\nodejs\ngocean\node_modules\mongodb\lib\core\connection\connect.js:310:16)
+            at Object.onceWrapper (events.js:416:28)
+            at Socket.emit (events.js:310:20)
+            at Socket._onTimeout (net.js:479:8)
+            at listOnTimeout (internal/timers.js:549:17)
+            at processTimers (internal/timers.js:492:7),
+        roundTripTime: -1,
+        lastUpdateTime: 1158909262,
+        lastWriteDate: null,
+        opTime: null,
+        type: 'Unknown',
+        topologyVersion: undefined,
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: []
+      }
+    },
+    stale: false,
+    compatible: true,
+    compatibilityError: null,
+    logicalSessionTimeoutMinutes: null,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    commonWireVersion: null
+  },
+  level: 'error',
+  stack: 'MongooseServerSelectionError: connection timed out\n' +
+    '    at NativeConnection.Connection.openUri (e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\connection.js:845:32)\n' +
+    '    at e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\index.js:345:10\n' +
+    '    at e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:30:10)\n' +
+    '    at Mongoose._promiseOrCallback (e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\index.js:1135:10)\n' +
+    '    at Mongoose.connect (e:\\nodejs\\ngocean\\node_modules\\mongoose\\lib\\index.js:344:20)\n' +
+    '    at dbConnection (e:\\nodejs\\ngocean\\api\\utility\\server.js:7:6)\n' +
+    '    at Object.<anonymous> (e:\\nodejs\\ngocean\\index.js:24:32)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1133:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:977:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:877:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n' +
+    '    at internal/main/run_main_module.js:18:47',
+  label: 'ngocean',
+  timestamp: '2021-02-04T18:13:51.325Z'
+}

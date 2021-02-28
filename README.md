@@ -1,5 +1,5 @@
 # ngtask
-## it's the Node Js API using express framework.
+## It's the Node Js API using express framework.
 
 # Statement:
 > Users can add tasks that they have to complete during the day and once the task is complete,
@@ -21,12 +21,12 @@ with inputs start & end date(time-range) & allow them to export the listed data 
 
 
 
-### list of All the npm repository 
-    - "bcrypt": "^5.0.1", -- To encrypt and decrypt user password we use bcrypt
-    - "csv-writer": "^1.6.0", ---To generate csv file
-    - "express": "^4.17.1",  ---Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications API
+### List of All the npm repository 
+    - "bcrypt": "^5.0.1", -- To encrypt and decrypt user password, we use bcrypt.
+    - "csv-writer": "^1.6.0", ---To generate csv file.
+    - "express": "^4.17.1",  ---Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications API.
     - "joi": "^17.3.0", ---Joi is the library that help to validating the incoming json object like it username key should string and min length should be 5 and maximum length should be 7.
-    - "jsonwebtoken": "^8.5.1", --To generate and validate token we use Json Web Token
+    - "jsonwebtoken": "^8.5.1", --To generate and validate token we use Json Web Token.
     - "lodash": "^4.17.21", 
     - "mongoose": "^5.11.14"--- Mongoose is designed to work with mongo database. It provide almost all use full set of feature with them we can work on mongo db efficiently while developing API.
-    - "winston": "^3.3.3"  ---Winston is designed to be a simple and universal logging library with support for multiple transports
+    - "winston": "^3.3.3"  ---Winston is designed to be a simple and universal logging library with support for multiple transports.
